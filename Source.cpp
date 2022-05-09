@@ -117,7 +117,7 @@ public:
 
 	}
 
-	UIEntity* operator->()
+	Type* operator->()
 	{
 		return m_entityName;
 	}
@@ -129,7 +129,7 @@ public:
 
 private:
 	
-	UIEntity* m_entityName;
+	Type* m_entityName;
 	uint32_t* m_countShareHolders;
 
 };
